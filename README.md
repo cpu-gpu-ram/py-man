@@ -1,2 +1,1 @@
-Run the File.py before the sel.py u Should only need to use the file.py once
-this only works on Arch linux connects to the pacman repo and YAY the aur manager file.py is used to install ani-cli
+Run install.sh then python main.py while in the directory you extracted the python files in
