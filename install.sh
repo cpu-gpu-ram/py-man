@@ -15,7 +15,7 @@ fi
 
 echo "(3/3) Checking for NetworkManager..."
 if pacman -Qs networkmanager >/dev/null; then
-    echo "NetworkManager."
+    echo "NetworkManager found."
 else [[echo "NetworkManager not installed. Installing..." ; sudo pacman -S networkmanager]]
 fi
 
