@@ -8,6 +8,7 @@ while True:
     print('5. Os Checker.')
     print('6. Start Network Manager GUI.')
     print('7. Watch anime (dub)')
+    print('8. Quit')
     usrinput = input ()
     if usrinput == '1':
         print('Option 1 Chosen.')
@@ -30,5 +31,7 @@ while True:
     elif usrinput == '7':
         print('Option 7')
         os.system('python Anime.py')
+    elif usrinput == '8':
+        exit
     else :
         print ("invaid input")
