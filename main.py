@@ -32,6 +32,6 @@ while True:
         print('Option 7')
         os.system('python Anime.py')
     elif usrinput == '8':
-        exit
+        exit()
     else :
         print ("invaid input")
