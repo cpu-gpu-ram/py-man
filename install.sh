@@ -33,6 +33,7 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
     echo "Updating..."
     git clone "https://github.com/cpu-gpu-ram/py-man.git"
     cd py-man
+    chmod +x install.sh
     read -r -p "Would you like to run the script? [y/N] " -n 1 CONFIRM
     echo
     if [[ "$CONFIRM" =~ ^[Yy]$ ]]; then
