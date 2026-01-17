@@ -2,13 +2,14 @@ import os
 while True:
     print('Please click the number that corresponds with the function you would like to do')
     print('1. Create a .txt File')
-    print('2. Create a folder.')
-    print('3. Delete a file ')
+    print('2. Create a folder')
+    print('3. Delete a file')
     print('4. Delete an empty Folder')
-    print('5. Os Checker.')
-    print('6. Start Network Manager GUI.')
-    print('7. Watch anime (dub)')
-    print('8. Quit')
+    print('5. OS Checker')
+    print('6. Start NetworkManagerTUI')
+    print('7. Watch anime')
+    print('8. Check for updates')
+    print('9. Quit')
     usrinput = input ()
     if usrinput == '1':
         print('Option 1 Chosen.')
@@ -32,6 +33,8 @@ while True:
         print('Option 7')
         os.system('python Anime.py')
     elif usrinput == '8':
+        os.system('./install.sh')
+    elif usrinput == '9':
         exit()
     else :
-        print ("invaid input")
+        print ("Invalid input. Retry.")
