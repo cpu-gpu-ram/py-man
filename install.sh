@@ -30,11 +30,11 @@ read -r -p "Would you like to update? [y/N] " -n 1 REPLY
 echo
 
 if [[ "$REPLY" =~ ^[Yy]$ ]]; then
+    $REPLY = 0
     echo "Updating..."
     git clone "https://github.com/cpu-gpu-ram/py-man.git"
     cd py-man
-    chmod +x install.sh
-    read -r -p "Would you like to run the script? [y/N] " -n 1 CONFIRM
+    read -r -p "Would you like to run the script? [y/N] " -n 1 REPLY
     echo
     if [[ "$CONFIRM" =~ ^[Yy]$ ]]; then
         python main.py
@@ -45,3 +45,4 @@ else
     echo "Operation cancelled. Goodbye!"
     exit 1 # Exit the script
 fi
+
