@@ -2,4 +2,11 @@
 
 **This repository is for Arch Linux based operating systems ONLY.**
 
-Run install.sh then python main.py while in the directory you extracted the python files in
+To use this script, copy and paste the following into a terminal of your choice.
+
+```
+git clone https://github.com/cpu-gpu-ram/py-man.git
+cd py-man
+chmod +x install.sh
+./install.sh
+```
