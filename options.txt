@@ -1,0 +1,9 @@
+1. Create a text file
+ 2. Create a folder
+ 3. Remove a file
+ 4. Remove a folder
+ 5. List hardware data
+ 6. Open NetworkManager TUI
+ 7. Watch anime
+ 8. Update the script
+ 9. Exit      
