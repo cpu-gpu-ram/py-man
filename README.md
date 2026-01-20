@@ -10,5 +10,5 @@ To get started, copy the following into your terminal.
 git clone -b cpp-man --single-branch https://github.com/cpu-gpu-ram/py-man.git/
 cd py-man
 chmod +x install.sh
-g++ main.cpp
+g++ main.cpp -o cpp-man
 ```
