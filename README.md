@@ -9,4 +9,6 @@ git clone https://github.com/cpu-gpu-ram/py-man.git
 cd py-man
 chmod +x install.sh
 ./install.sh
+Then run the main.py file.
+
 ```
