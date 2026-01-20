@@ -1,19 +1,24 @@
 #include <cstdio>
 #include <iostream>
+#include <fstream>
 #include <cstdlib>
-#include <unistd.h>
 using namespace std;
 
 int main() {
-
+    string options;
     cout << "Welcome!" << "\nPlease select the operation you'd like to perform.\n";
 
+    ifstream readfile("options.txt");
+    while (getline(readfile, options)) {
+        cout << options;
+    }
+
     while (true) {
-        
+            
+        string x;
         int usrin;
         cin >> usrin;
-        string x;
-
+        
 
 
         switch (usrin)
